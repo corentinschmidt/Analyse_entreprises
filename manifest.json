@@ -1,0 +1,21 @@
+{
+  "name": "StockScore — Analyseur boursier IA",
+  "short_name": "StockScore",
+  "description": "Analyseur IA de valeurs boursières — Biotechs & Small Caps",
+  "start_url": "./stockscore_v5.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f9f8f6",
+  "theme_color": "#185FA5",
+  "lang": "fr",
+  "categories": ["finance", "business"],
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Analyser", "url": "./stockscore_v5.html#analyze", "description": "Analyser une valeur"},
+    {"name": "Portefeuille", "url": "./stockscore_v5.html#port", "description": "Mon portefeuille"}
+  ]
+}
